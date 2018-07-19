@@ -1,0 +1,116 @@
+body{
+	font-family: arial, sans-serif;
+	height: 100%;
+
+}	
+.header{
+	
+	background-color:#CCCCCC;
+	padding: 20px;
+		
+}
+.header-list{
+	
+	list-style-type: none;
+	display: flex;
+    align-items: center;
+	
+}
+.item-lista-header{
+	
+	margin: 0px 15px 0px;
+	
+}
+.logotipo{
+	
+	padding:0px 50px 0px 50px;
+	font-size: 30px;
+	
+}
+.ancora-reader{
+	
+	background-color: transparent;
+    text-decoration: none;
+    color: black;
+	
+}
+.noticia{	
+
+	font-size: 30px;
+	padding: 30px 10px 30px;
+	color: #505050;
+
+}
+.noticia-home{	
+
+	font-size: 30px;
+	padding: 30px 10px 30px;
+	color: #505050;
+	border-bottom: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+
+}
+.noticia-texto{
+	/* word-break: break-all;  */
+	text-align: justify;
+    text-justify: inter-word;
+	font-size: 14px;
+	padding: 10px 0px 0px;
+}
+.ancora-noticia{
+	
+	color: #505050;
+	background-color: transparent;
+    text-decoration: none;
+	
+}
+.noticia-leia-mais{
+	
+	font-size: 20px;
+	color: #5050C0;
+	
+}
+.centraliza-corpo{
+
+    max-width: 900px;
+	margin: auto;
+		
+}
+.footer{
+	
+	padding: 20px 0px 10px;
+	background-color: #909090;
+	color: #F0F0F0;
+	
+}
+.contato{
+
+	margin: 50px 0px 0px;
+	padding-bottom: 20px;
+
+}
+.digite-nome{
+
+	margin: 0px 0px 20px;
+	color: #505050;
+}
+.digite-mensagem{
+
+	margin: 0px 100px 20px 0px;
+	color: #505050;
+
+}
+.botao-enviar{
+	
+	height: 40px;width: 85px;
+	background-color: #909090;
+	color: white;
+	font-size: 20px;
+	border-style: none;
+}
+.arruma-foter{
+
+	min-height: calc(100vh - 45px);
+
+}
