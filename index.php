@@ -5,8 +5,4 @@
     $router_o = new router();
     $router_o->get_view();
     
-    
-    
-    
-        
 ?>
