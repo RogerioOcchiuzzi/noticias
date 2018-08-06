@@ -1,3 +1,6 @@
+<?php
+require_once './model/inserir_noticia.php';?>
+
 <div class="contato">
     <form method="post">
         <input type="text" name="titulo" value="Digite o titulo da notícia" size="40" class="digite-nome"></input>

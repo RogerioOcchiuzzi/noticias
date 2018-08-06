@@ -10,13 +10,12 @@ class router{
     }
 
     public function get_contend($url){
-    
+            
         if(sizeof($url) == 1){
 
             if(isset($_POST['titulo']) && isset($_POST['texto']) &&
             ($url[0] == 'postar')){
 
-            echo 'Teste:</br>'.$_POST['titulo'].'</br></br>'.$_POST['texto'];
             include './view/postar.php';
 
             }else if($url[0] == 'contato'){
@@ -31,10 +30,6 @@ class router{
 
                 include './view/nos.php';
                 
-            }else if($url[0] == 'noticia'){
-
-                include './view/noticia.php';
-                
             }else if($url[0] == 'home'){
 
                 include './view/home.php';
@@ -47,9 +42,19 @@ class router{
 
         }else{
 
-            header("Location: /noticias/404");
-            die();
-
+            if($url[0] == 'noticia'){
+                
+                include './view/noticia.php';
+                
+                mostar_noticia($url[1]);
+                
+            }else{
+                
+                include './view/404.php';
+                
+            }
+            
+            
         }
         
     }
