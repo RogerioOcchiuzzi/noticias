@@ -34,6 +34,18 @@ class router{
 
                 include './view/home.php';
                 
+            }else if($url[0] == 'entrar'){
+                
+                include './view/entrar.php';
+                
+            }else if($url[0] == 'cadastrar'){
+                
+                include './view/cadastrar.php';
+                
+            }else if($url[0] == 'cadastro'){
+                
+                include './view/cadastro.php';
+                
             }else{
         
                 include './view/404.php';

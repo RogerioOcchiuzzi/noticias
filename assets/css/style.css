@@ -57,6 +57,7 @@ body{
     text-justify: inter-word;
 	font-size: 14px;
 	padding: 10px 0px 0px;
+	color: #505050;
 }
 .ancora-noticia{
 	
@@ -92,14 +93,15 @@ body{
 }
 .digite-nome{
 
-	margin: 0px 0px 20px;
+	margin: 0px 500px 20px 0px;
 	color: #505050;
+	margin-right: 500px;
 }
 .digite-mensagem{
 
-	margin: 0px 100px 20px 0px;
+	margin: 0px 500px 20px 0px;
 	color: #505050;
-
+	
 }
 .botao-enviar{
 	
