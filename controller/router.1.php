@@ -38,10 +38,6 @@ class router{
                 
                 include './view/entrar.php';
                 
-            }else if($url[0] == 'login'){
-                
-                include './view/login.php';
-                
             }else if($url[0] == 'cadastrar'){
                 
                 include './view/cadastrar.php';

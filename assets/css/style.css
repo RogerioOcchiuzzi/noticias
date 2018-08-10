@@ -103,6 +103,14 @@ body{
 	color: #505050;
 	
 }
+.botao-cadastrar{
+	
+	height: 40px;width: 105px;
+	background-color: #909090;
+	color: white;
+	font-size: 20px;
+	border-style: none;
+}
 .botao-enviar{
 	
 	height: 40px;width: 85px;
