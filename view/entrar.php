@@ -5,6 +5,6 @@
         <h2 id='result'></h2>
         <p class="noticia-texto">Digite seu password</p>
         <input type="password" name="password" size="40" class="digite-nome"></input>
-        <button type="submit" formaction="home" class="botao-enviar" >Publicar</button>
+        <button type="submit" formaction="login" class="botao-enviar" >Publicar</button>
     </form>
 </div>
