@@ -28,7 +28,8 @@ if(!empty($_POST['nome'])){
         
     } catch (Exception $e) {
         
-        echo 'Deu pau! '.$e;
+        echo '<h1>Erro ao inserir dados no banco de dados.</h1>';
+        echo '<p>Erro: '.$e.'</p>';
         
     }
     

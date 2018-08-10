@@ -80,9 +80,22 @@ body{
 }
 .footer{
 	
+	
 	padding: 20px 0px 10px;
 	background-color: #909090;
 	color: #F0F0F0;
+	
+}
+.footer-list{
+	
+	display: block;
+	width: 30%;
+	height: auto;
+	margin: 0 auto;
+	
+	list-style-type: none;
+	display: flex;
+    align-items: center;
 	
 }
 .contato{

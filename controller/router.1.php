@@ -42,10 +42,6 @@ class router{
                 
                 include './view/cadastrar.php';
                 
-            }else if($url[0] == 'cadastro'){
-                
-                include './view/cadastro.php';
-                
             }else if($url[0] == 'sair'){
                 
                 include './view/sair.php';
