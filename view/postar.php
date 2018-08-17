@@ -5,6 +5,8 @@
 
 <?php 
 
+require_once './model/inserir_noticia.php';
+
 $titulo = $_POST['titulo'];
 $noticia = $_POST['texto'];
 
